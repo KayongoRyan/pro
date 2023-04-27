@@ -1,0 +1,607 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color: #bef1ff;
+    max-width: 100%;
+}
+.header{
+    width: 100%;
+    height: 100vh; 
+    background-position: center;
+}
+.logo{
+   position: relative;
+   bottom: 30px;
+   width: 70%;
+  height: 10%;
+}
+.side-nav{
+    width: 130px;
+    height: 77%;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 30px 15px;
+    background-color: rgba(13, 97, 243, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 2px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.user h2{
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.user-img{
+    width: 40px;
+    border-radius: 50%;
+    margin: auto;
+}
+.navigation , a ,ul, li{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(47, 47, 47);
+    position: relative;
+    bottom: 1px;
+}
+.navigation :hover{
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 700;
+}
+.page {
+    width: 91%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgb(0, 131, 254);
+    background-image: linear-gradient(rgba(8, 0, 255, 0.3), rgba(65, 74, 177, 0.7)), url('images/students.jpg');
+    background-position: center;
+    background-size: cover;
+    left: 120px;
+    bottom: 134px;
+  }
+  
+  h2{
+    text-align: center;
+}
+.features{
+    position: relative;
+    bottom: 110px;
+}
+.one{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(245, 244, 244);
+    position: relative;
+    float: left;
+    margin: 50px;
+    left: 300px;
+    bottom: 100px;
+    border-radius: 5px;
+}
+i{
+    position: relative;
+    right: 60px;
+    top: 50px;
+    color: rgb(0, 128, 255);
+    float: right;
+    font-size: 30px;
+}
+i:hover{
+    font-size:100 px;
+    color: #2780de;
+    cursor: pointer;
+    font-size: 40px;
+
+}
+
+.service{
+    position: relative;
+    float: left;
+    right: 400px;
+    top: 20px;
+}
+h3{
+    text-align: center;
+    color: #fff;
+}
+.image-container {
+     text-align: center;
+     width: 250px;
+     height: 200px;
+     position: relative;
+     bottom: 100px;
+}
+
+  .library {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    float: left;
+    left: 150px;
+    bottom: 20px;
+    margin: 10px; /* Add 10 pixels of margin around each image */
+  }
+  .read{
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 556px;
+    bottom: 230px;
+  }
+  .progress{
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 1000px;
+    bottom: 420px;
+  }
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.back{
+  background-color: rgb(16, 78, 154);
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  left: 1px;
+  top: 150px;     
+}
+.serve{
+    color: #fff;
+}
+.work{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(16, 78, 154);
+}
+.how {
+    float: left;
+    position: relative;
+    left: 380px;
+    bottom: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.system{
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    right: 600px;
+    bottom: 20px;
+}
+video{
+    float: left;
+    position: relative;
+    left: 500px;
+    bottom: 70px;
+}
+.guide{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(16, 78, 154);
+}
+.her{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    float: right;
+    right: 800px;
+    bottom: 70px;
+}
+.lorem{
+    float: right;
+    color: #fff;
+    position: relative;
+    left: 300px;
+   top: 50px;
+}
+.child{
+    color: #1d1d1d;
+    float: right;
+    position: relative;
+    right: 80px;
+}
+.reb{
+    color: #050505;
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+.nle{
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 350px;
+    bottom: 20px;
+}
+.shake{
+    text-align: center;
+    position: relative;
+    top:100px;
+    left: 20px;
+    font-weight: 600;
+    font-size: medium;
+    color: rgb(0, 128, 255);
+}
+.aca{
+    position: relative;
+    top: 120px;
+    left: 40px;
+    font-weight: 600;
+    font-size: medium;
+    color: rgb(0, 128, 255);
+}
+
+button{
+    background-color: rgb(0, 144, 233);
+    border: none;
+    width: 150px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+button:hover{
+    background-color:  rgba(5, 0, 136, 0.5);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.achieve{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    top: 300px;
+}
+.abc{
+    position: relative;
+    float: left;
+    right: 290px;
+    text-align: center;
+    bottom: 40px;
+}
+.transparent{
+    position: relative;
+    right: 400px;
+}
+.in{
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(166, 166, 166,0.5);
+    position: relative;
+    bottom: 400px;
+}
+.balance{
+    position: relative;
+    bottom: 750px;
+    left: 400px;
+}
+.fees{
+    position: relative;
+    top: 390px;
+    text-align: center;
+}
+.mastercard{
+    width: 60%;
+    height: 70vh;
+    background-color: rgba(171, 182, 209, 0.5);
+    position: relative;
+    top: 400px;
+    left: 300px;
+    border-radius: 5px;
+}
+.dial{
+    position: relative;
+    top: 400px;
+    left: 320px;
+}
+.bill{
+    position: relative;
+    left: 340px;
+    bottom: 10px;
+    font-size:large ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+.master{
+    position: relative ;
+    width: 200px;
+    height: 90px;
+    border-radius: 10px;
+    left: 320px;
+    top: 10px;
+    float: left;
+}
+.paypal{
+    position: relative ;
+    width: 200px;
+    height: 90px;
+    border-radius: 10px;
+    left: 120px;
+    top: 120px;
+    
+}
+.bitcoin{
+    position: relative ;
+    width: 200px;
+    height: 90px;
+    border-radius: 10px;
+    right: 80px;
+    top: 235px;
+}
+.line{
+    width: 2px;
+    height: 40vh;
+    position: relative;
+    background-color: #707070;
+    left: 600px;
+    bottom: 60px;
+    border-radius: 20px;
+}
+.below{
+    position: relative;
+    left: 650px;
+    bottom: 400px;
+}
+.name{
+    float: right;
+    position: relative;
+    right: 450px;
+    bottom: 340px;
+    width: 20%;
+    height: 5vh;
+    border-radius: 5px;
+    border-style: inherit;
+    margin: 20px;
+}
+.name-1{
+    float: right;
+    position: relative;
+    right: 140px;
+    bottom: 280px;
+    width: 20%;
+    height: 5vh;
+    border-radius: 5px;
+    border-style: inherit;
+    margin: 20px;
+}
+.name-2{
+    float: right;
+    position: relative;
+    left: 170px;
+    bottom: 220px;
+    width: 20%;
+    height: 5vh;
+    border-radius: 5px;
+    border-style: inherit;
+    margin: 20px;
+}
+.name-3{
+    float: right;
+    position: relative;
+    left: 480px;
+    bottom:150px;
+    width: 20%;
+    height: 5vh;
+    border-radius: 5px;
+    border-style: inherit;
+    margin: 20px;
+}
+.name-4{
+    position: relative;
+    left: 920px;
+    float: left;
+    bottom: 205px;
+    border-radius: 5px;
+    border-style: inherit;
+    width: 10%;
+    height: 5vh;
+}
+.paid{
+    width: 5%;
+    height: 20%;
+    background-color: aqua;
+    color: white;
+    position: relative;
+    left: 620px;
+    bottom: 70px;
+    border-radius: 1px;
+}
+.yo{
+    text-align: center;
+    position: relative;
+    float: right;
+    right: 550px;
+    bottom: 30px;
+}
+.two{
+    width: 100%;
+    height: 100vh;
+    background-color: #3f74fb;
+    position: relative;
+    top: 100px;
+
+}
+.yo{
+    text-align: center;
+    position: relative;
+    
+}
+.three{
+    
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    position: relative;
+    color: #fff;
+    float: left;
+    left: 100px;
+    margin: 50px;
+}
+.level{
+    height: 250px;
+    position: relative;
+    bottom: 30px;
+    border-radius: 5px ;
+}
+.big{
+    width: 350px;
+    height: 20vh;
+  
+    border-radius: 2px;
+    position: relative;
+    top: 450px;
+    left: 300px;
+}
+.past{
+    width: 300px;
+    height: 50vh;
+    border-radius: 4px;
+    position: relative;
+    bottom: 400px;
+    left: 5px;
+    background-color: linear-gradient(rgba(5, 0, 136, 0.5), rgba(0, 87, 154, 0.5)) ;;
+}
+.look{
+    width: 300px;
+    height: 50vh;
+    border-radius: 4px;
+    position: relative;
+    bottom: 500px;
+    float: right;
+    left: 500px;
+
+}
+.yes{
+    position: relative;
+    bottom: 350px;
+    color: #e9e9e9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    min-height: 100vh;
+    background: #253c88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container form{
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background: rgba(255,255,255,0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+}
+.container form h1{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+.container form input{
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #fff;
+}
+.container form input ::placeholder{
+    color: #ddd;
+}
+.container form #E-mail,
+.container form #mobile{
+    margin-left: 20px;
+}
+.container form h4{
+    color: #fff;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+}
+.container form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    min-width: 600px;
+    min-height: 80px;
+    min-height: 80px;
+}
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194,194,194,0.713);
+}
+
+.container form #button{
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+.container form #button:hover{
+    opacity: 0.7;
+}
+.copy{
+    width: 100%;
+    height: 10vh;
+    background-color: #050505;
+    color: #fff;
+}
+.last{
+    position: relative;
+    left: 530px;
+    top: 20px;
+    float: left;
+}
+.front{
+    font-size: 200;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    position: relative;
+    bottom: 300px;
+    left: 100px;
+}
